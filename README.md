@@ -1,5 +1,6 @@
 # bike-odometer
 A digital odometer based on a hall-effect sensor.
+
 ![odometer](https://github.com/user-attachments/assets/3253440e-56cb-4e12-bc1f-1f6fb6cb4931)
 
 The microcontroller is an Atmega1248. It uses a 2.8" tft screen, a BMP280 temp/altitude sensor, an 18650 lithium battery (with its associated charging and 5v -> 3.3v conversion circuits) and a single button for its different functions. It displays total distance, top speed achieved, average speed, today's distance, stopwatch, altitude gain/loss, temperature and battery remaining.
